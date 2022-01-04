@@ -5,7 +5,7 @@ services:
     restart: always
 
   plausible_db:
-    image: postgres:12
+    image: postgres:12-alpine
     restart: always
     volumes:
       - db-data:/var/lib/postgresql/data
@@ -13,7 +13,7 @@ services:
       - POSTGRES_PASSWORD=postgres
 
   plausible_events_db:
-    image: yandex/clickhouse-server:21.3.2.5
+    image: yandex/clickhouse-server:21.3.2.5-alpine
     restart: always
     volumes:
       - event-data:/var/lib/clickhouse
