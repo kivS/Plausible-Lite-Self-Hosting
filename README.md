@@ -6,6 +6,8 @@ This repository acts as a a template to get up and running with [Plausible Analy
 
 Find instructions on how to run Plausible Analytics Self Hosted [in our docs](https://docs.plausible.io/self-hosting).
 
+- [Hosting Configuration](https://plausible.io/docs/self-hosting-configuration)
+
 ### Contributing
 
 We are always looking to expand on the options and setups provided here. Feel free to open an issue or PR if you feel
